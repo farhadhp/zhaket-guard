@@ -1,6 +1,6 @@
 <?php
 
-//namespace ZhaketGuard;
+namespace Farhadhp\ZhaketGuard;
 use GuzzleHttp\Client;
 
 class ZhaketGuard
