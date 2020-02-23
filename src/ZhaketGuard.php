@@ -1,6 +1,7 @@
 <?php
 
 namespace Farhadhp\ZhaketGuard;
+
 use GuzzleHttp\Client;
 
 class ZhaketGuard
@@ -26,7 +27,8 @@ class ZhaketGuard
 
         $client = new Client();
         $response = $client->request('GET', self::$apiUrl.$method, [
-            'query' => $params
+            'query' => $params,
+            'http_errors' => false,
         ]);
         return $response->getBody();
     }
@@ -38,7 +40,7 @@ class ZhaketGuard
      * @param $productToken
      * @return \Psr\Http\Message\StreamInterface|string
      */
-    public static function install($licenseToken, $productToken)
+    public static function installLicense($productToken, $licenseToken)
     {
         return self::request('install-license', [
             'product_token' => $productToken,
