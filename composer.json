@@ -1,5 +1,5 @@
 {
-    "name": "farhadhp/ZhaketGuard",
+    "name": "farhadhp/zhaket-guard",
     "type": "library",
     "description": "A php library for the Zhaket guard licensing system.",
     "keywords": ["zhaket", "guard", "farhad", "farhadhp", "zhaket guard"],
