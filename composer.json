@@ -13,13 +13,14 @@
             "role": "Developer"
         }
     ],
+    "minimum-stability": "stable",
     "require": {
         "php": ">=7.0.0",
         "guzzlehttp/guzzle": "^6.5"
     },
     "autoload": {
         "psr-4": {
-            "Farhadhp\\ZhaketGuard\\": "src"
+            "Farhadhp\\ZhaketGuard\\": "src/"
         }
     }
 }
