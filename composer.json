@@ -1,0 +1,19 @@
+{
+    "name": "farhadhp/ZhaketGuard",
+    "type": "library",
+    "description": "A php library for the Zhaket guard licensing system.",
+    "keywords": ["zhaket", "guard", "farhad", "farhadhp", "zhaket guard"],
+    "homepage": "https://github.com/FarhadHP/ZhaketGuard",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Farhad Hassan Pour",
+            "email": "farhadhp.ir@gmail.com",
+            "homepage": "http://birgeek.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^6.5"
+    }
+}
