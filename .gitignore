@@ -1,0 +1,10 @@
+/node_modules
+/vendor
+.phpunit.result.cache
+Homestead.json
+Homestead.yaml
+npm-debug.log
+yarn-error.log
+.idea
+composer.lock
+package-lock.json
