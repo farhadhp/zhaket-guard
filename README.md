@@ -43,7 +43,7 @@ use Farhadhp\ZhaketGuard\ZhaketGuard;
 $productToken = 'f2352e4a-4545-4c86-8790-454545'; // توکن محصول شما
 $license = 'f2352e4a-82c8-4c86-8790-23234323'; // لایسنس وارد شده توسط کاربر
 
-$res = ZhaketGuard::install($productToken, $license);
+$res = ZhaketGuard::installLicense($productToken, $license);
 
 if ($res->status=='successful') {
     // Lisence successfuly installed
