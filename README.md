@@ -9,7 +9,7 @@
 [![Total Downloads](https://poser.pugx.org/farhadhp/zhaket-guard/downloads)](https://packagist.org/packages/farhadhp/zhaket-guard)
 [![Software License](https://img.shields.io/badge/license-MIT-blue.svg?style=round-square)](LICENSE.md)
 
-<div dir="rtl">
+
 
 ## معرفی کتابخانه 
 توسط این کتابخانه می‌توانید به راحتی سیستم لایسنس گارد ژاکت را به محصولات وردپرسی خود (قالب و افزونه) اضافه کنید.
@@ -95,4 +95,3 @@ if ($res->status=='successful') {
 
 
 
-</div>
